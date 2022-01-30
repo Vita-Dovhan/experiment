@@ -4,9 +4,9 @@ const refs = {
   backdrop: document.querySelector('.js-backdrop'),
   closeBtn: document.querySelector('[data-action="close-modal"]')
 }
-refs.openBtn.addEventListener("click", onOpenModal);
-refs.backdrop.addEventListener("click", onBackdrop);
-refs.closeBtn.addEventListener("click", onCloseModal);
+refs.openBtn.addEventListener("click", onOpenModal)
+refs.backdrop.addEventListener("click", onBackdrop)
+refs.closeBtn.addEventListener("click", onCloseModal)
 
 
 function onOpenModal() {
